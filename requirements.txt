@@ -1,0 +1,4 @@
+pre-commit
+Flask~=2.1.1
+requests
+pytest

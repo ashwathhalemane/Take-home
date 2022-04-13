@@ -1,0 +1,11 @@
+repos:
+  - repo: local
+    hooks:
+    - entry: "python3 -m unittest unit_test.py"
+      id: unittests
+      language: system
+      name: unittest
+      require_serial: true
+      always_run: true
+      types:
+        - python
